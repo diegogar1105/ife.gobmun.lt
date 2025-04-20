@@ -1,1 +1,24 @@
-
+{
+    "percentScrutinized": 50,
+    "results": {
+        "presidencial": [
+            { "name": "Partido A", "votes": 4500000, "percentage": 35 },
+            { "name": "Partido B", "votes": 3800000, "percentage": 30 },
+            { "name": "Partido C", "votes": 2500000, "percentage": 20 },
+            { "name": "Otros", "votes": 1500000, "percentage": 15 }
+        ],
+        "legislativa": [
+            { "name": "Partido A", "votes": 4200000, "percentage": 32 },
+            { "name": "Partido B", "votes": 4000000, "percentage": 31 },
+            { "name": "Partido C", "votes": 2800000, "percentage": 22 },
+            { "name": "Otros", "votes": 1700000, "percentage": 15 }
+        ],
+        "regional": [
+            { "name": "Partido A", "votes": 2200000, "percentage": 28 },
+            { "name": "Partido B", "votes": 2500000, "percentage": 32 },
+            { "name": "Partido C", "votes": 1800000, "percentage": 23 },
+            { "name": "Otros", "votes": 1300000, "percentage": 17 }
+        ]
+        // (Agrega más elecciones según necesites)
+    }
+}
