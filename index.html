@@ -1,1 +1,46 @@
+Html:
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados Electorales - Institución Federal Electoral</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Resultados Electorales</h1>
+            <p>Sistema oficial de conteo de votos</p>
+        </header>
+
+        <div class="loading-bar">
+            <div class="progress" id="progress-bar"></div>
+            <span id="progress-text">0% escrutado</span>
+        </div>
+
+        <div class="election-selector">
+            <label for="election-type">Tipo de Elección:</label>
+            <select id="election-type">
+                <option value="presidencial">Elección Presidencial</option>
+                <option value="legislativa">Elección Legislativa</option>
+                <option value="regional">Elección Regional</option>
+                <option value="regional-legislativa">Elección Regional Legislativa</option>
+                <option value="municipal">Elección Municipal</option>
+                <option value="municipal-legislativa">Elección Municipal Legislativa</option>
+            </select>
+        </div>
+
+        <div class="results-container" id="results">
+            <!-- Los resultados se cargarán aquí con JavaScript -->
+        </div>
+
+        <footer>
+            <p>© 2023 Institución Federal Electoral. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
